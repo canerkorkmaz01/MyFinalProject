@@ -6,7 +6,7 @@ namespace Core.Utilities.Interceptors
     public abstract class MethodInterception : MethodInterceptionBaseAttribute
     {
         /// <summary>
-        /// invocation : business method
+        /// invocation : business method Hazır Frameworkler
         /// </summary>
         /// <param name="invocation"></param>
         protected virtual void OnBefore(IInvocation invocation) { }
